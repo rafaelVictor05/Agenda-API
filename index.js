@@ -14,7 +14,7 @@ app.use(express.json());
 app.use('/api/tasks', taskRoutes);
 
 // Conectar
-mongoose.connect(process.env.MONGO_URI)
+mongoose.connect(process.env.MONGO_URL)
     .then(() => console.log('Conectado ao Mongodb...'))
     .catch(err => console.log(err));
 

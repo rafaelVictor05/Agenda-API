@@ -21,7 +21,7 @@ routes/tasks.js       # Rotas da API para tarefas
 ## Instalação
 1. Clone o repositório:
    ```sh
-   git clone <url-do-repositorio>
+   git clone https://github.com/rafaelVictor05/Agenda-API.git
    cd ApiAgenda
    ```
 2. Instale as dependências:

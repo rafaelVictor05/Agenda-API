@@ -39,7 +39,8 @@ routes/tasks.js       # Rotas da API para tarefas
    ```sh
    npm start
    ```
-2. Acesse os endpoints via `http://localhost:3000/api/tasks`
+2. Acesse os endpoints via `http://localhost:3000/api/tasks` ou via nuvem em `https://agenda-api-9zhi.onrender.com/api/tasks`
+- Caso use a API hospedada na nuvem, a primeira resposta pode demorar de 30 segundos a 1 minuto para ser processada enquanto o servidor é reativado.
 
 ## Endpoints
 - `GET    /api/tasks`         → Lista todas as tarefas
